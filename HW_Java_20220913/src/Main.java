@@ -13,11 +13,12 @@ public class Main {
         int len = str.length();
         for (int i = 0; i < len; i++) {
             char c = str.charAt(i);
-            if (c == oldChar) {
-                res += newChar;
-            } else {
-                res += c;
-            }
+//            if (c == oldChar) {
+//                res += newChar;
+//            } else {
+//                res += c;
+//            }
+            res+=(c == oldChar) ? newChar : c ;
         }
         return res;
     }
