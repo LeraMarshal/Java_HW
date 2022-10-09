@@ -16,6 +16,10 @@ public class Main {
     В данной задаче, если 2 и более студента имеют лучший бал, метод может вернуть имя любого из них.
      */
     private static String nameOfTheBestStudent(String[] students, double[] points) {
+        if (students.length == 0){
+            return null;
+        }
+
         double maxPoint = points[0];
         int maxPointIndex = 0;
 
@@ -38,7 +42,7 @@ public class Main {
     “John - 4.2:Stan - 4.8:Ed - 4.1”
      */
     private static String filterStudentsToString (String[] students, double[] points, double border){
-        String res ="";
+        String res = "";
 
         for (int i = 0; i < points.length; i++) {
             if (points[i] > border){
