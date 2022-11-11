@@ -1,4 +1,4 @@
-package de.marshal;
+package de.marshal.growing_plants;
 
 import java.util.List;
 

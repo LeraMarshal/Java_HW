@@ -1,4 +1,4 @@
-package de.marshal;
+package de.marshal.growing_plants;
 
 public class Tree extends Plant {
 
