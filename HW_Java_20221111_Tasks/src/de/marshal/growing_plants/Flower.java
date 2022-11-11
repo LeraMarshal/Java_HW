@@ -19,6 +19,7 @@ public class Flower extends Plant {
                 isBlooming = false;
                 break;
             case AUTUMN:
+                height = 0;
                 break;
             case WINTER:
                 age += 1;
