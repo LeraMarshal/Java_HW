@@ -19,13 +19,13 @@ public class HanoiNonRec1 {
         }
 
         if (n % 2 == 0) {
-            while(stacks[0].size() > 0) {
+            while(stacks[0].size() > 0 || stacks[1].size() > 0) {
                 move(stacks, 0, 1);
                 move(stacks, 0, 2);
                 move(stacks, 1, 2);
             }
         } else {
-            while (stacks[0].size() > 0) {
+            while (stacks[0].size() > 0 || stacks[1].size() > 0) {
                 move(stacks, 0, 2);
                 move(stacks, 0, 1);
                 move(stacks, 1, 2);
