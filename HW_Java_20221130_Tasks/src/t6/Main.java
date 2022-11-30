@@ -1,10 +1,9 @@
 package t6;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class t6 {
+public class Main {
     /*
     Есть лист  целых чисел. Написать метод, который вернет список без элементов, больше числа n.
 
