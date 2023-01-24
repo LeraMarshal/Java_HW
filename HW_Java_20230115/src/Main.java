@@ -34,8 +34,8 @@ public class Main {
         Map<String, Integer> counts = new TreeMap<>();
         randomWords.forEach(word -> counts.merge(word, 1, Integer::sum));
 
-        int[] maxValue = {0};
-        String[] maxValueWord = {""};
+         int[] maxValue = {0};
+         String[] maxValueWord = {""};
 
         counts.forEach((key, value) -> {
             if (value > maxValue[0]){
